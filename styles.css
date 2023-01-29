@@ -5,7 +5,7 @@
     margin: 0px;
     padding: 0px;
     border: 0%;
-    color: black;
+    color: #2f2f2f;
     text-decoration: none;
 }
 
@@ -27,12 +27,13 @@
     /* margin: auto; */
     justify-content: center;
     align-items: center;
-    /* margin-top: 15px; */
+    margin-top: 2em;
 }
 .Features_slot{
     /* border: 2px solid black; */
     display:flex;
-    width: 70%;
+    width: 80%;
+    gap:10%;
     justify-content: center;
     align-items: center;
     margin-top: 25px;
@@ -41,7 +42,7 @@
 }
 .text-left{
     /* border: 2px solid green; */
-    width: 50%;
+    width: 40%;
     margin: auto;
     text-align: center;
 }
@@ -52,28 +53,28 @@
     padding-left: 1.5rem;
     font-family: 'Trajan Pro 3';
     font-weight: 100;
-    text-align: left;
+    /* text-align: left; */
     font-size: 3rem;
 }
 .text-left p{
     /* color: white; */
     font-family: 'Lora', serif;
 
-    text-align: left;
+    /* text-align: left; */
 
     font-size: 1rem;
     padding-right: 1.5rem;
     padding:  0rem 1.5rem;
 }
 .text-right p{
-    text-align: right;
+    /* text-align: right; */
 }
 .text-right h1{
-    text-align: right;
+    /* text-align: right; */
 }
 .image-right{
     /* border: 2px solid blue; */
-    width: 65%;
+    width: 50%;
     height: auto;
 }
 .feature-image{
@@ -117,9 +118,11 @@
     width: auto;
 }
 .login, .signin{
-    color: #14427f;
-    padding: 7px;
-    border: 1px solid #14427f;
+    background-color: #d7ac67;
+    color: rgb(243, 243, 243);
+    padding: 8px 12px;
+    font-weight: 600;
+    border-radius: 8%;
 }
 #intro{
     display: flex;
