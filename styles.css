@@ -1,0 +1,96 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+    color: black;
+    font-family: 'Lora', serif;
+    text-decoration: none;
+}
+#main{
+    width: 99vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+#header{
+    background-color:#ffffff;
+    width: 99vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.2em;
+    border-bottom:1px solid #6d4932 ;
+    position: fixed;
+}
+.links-left{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.links-right{
+    display: flex;
+    width: 13%;
+    gap:15%;
+    justify-content: flex-end;
+}
+#logo{
+    height: 11vh;
+    width: auto;
+}
+.login, .signin{
+    color: #14427f;
+    padding: 7px;
+    border: 1px solid #14427f;
+}
+#intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+    height: 100vh;
+    background:url("Images/main.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.writing-big{
+    font-family: 'Parisienne', cursive;
+    font-size: 500%;
+    margin-top: 20%;
+    margin-left: 25%;
+    height: auto;
+    width: 500px;
+}
+.writing-small{
+    color: #487254;
+    font-size: 150%;
+    width: 400px;
+    height: 100px;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+#book-bar{
+    display: flex;
+    align-items: center;
+    margin-top: 550px;
+    height: 60px;
+    width: 1000px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+}
+#arrival,#depart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+}
+#book-bar-rooms,#book-bar-people{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+#book-bar>p{
+    font-size: large;
+}
