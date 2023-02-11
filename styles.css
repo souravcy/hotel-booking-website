@@ -148,3 +148,57 @@
 #book-bar > p {
   font-size: large;
 }
+
+
+
+
+/* *Other Feature Box */
+
+.Other-Features{
+  /* border: 2px solid red; */
+  margin-top: 5%;
+  width: 99%;
+}
+.Other-Feature-list{
+  /* border: 2px solid blue; */
+  margin: 2% 6%;
+  padding: 2%;
+}
+.Other-Feature-list-heading{
+  /* border: 2px solid green; */
+  text-align: center;
+  font-weight: 400;
+  font-family: "Trajan Pro 3";
+  width: 99%;
+}
+.other-feature-box{
+  /* border: 2px solid black; */
+  margin-top: 3%;
+  padding: 1%;
+  width: 97%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+.list{
+  /* border: 2px solid brown; */
+  width: 98%;
+  padding: 0.5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+li{
+  display: inline-block;
+  /* text-align: center; */
+  list-style: none;
+  width: 15%;
+  padding: 0.5%;
+  padding-left: 7%;
+  margin: 0.5%;
+  /* border: 2px solid red; */
+  font-family: "Lora", serif;
+  font-size: 1rem;
+}
