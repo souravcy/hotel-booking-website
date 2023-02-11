@@ -16,22 +16,27 @@
     border-top-left-radius: 55px;
     border-bottom-right-radius: 55px;
     margin-top: 50px;
-    height:fit-content;
     width: 80%;
-    background-color: white;
-    border: 1px solid blue;
+    background-color: transparent;
+    /* border: 1px solid blue; */
     display: flex;
 }
 .room-text{
     width: 50%;
+    height: auto;
+    border-radius: 2rem;
+    background-color: white;
 }
 .room-imgbox{
     width:50%;
-    height:min-content;
+    height:auto;
+
 }
 .room-img{
-    /* height: auto; */
+    height: 100%;
     width: 100%;
     border-top-left-radius: 55px;
     border-bottom-right-radius: 55px;
+    border-radius: 2rem;
+
 }
