@@ -4,6 +4,7 @@
     justify-content: flex-start;
     background-color:#e8e8e8;
     flex-direction: column;
+    padding-bottom: 50px;
 }
 #room-head{
     display: flex;
@@ -26,7 +27,7 @@
     display: flex;
     flex-direction: column;
     padding: 40px;
-    gap:30px;
+    gap:15px;
 }
 .room-imgbox-left,.room-imgbox-right{
     width: 50%;
@@ -42,11 +43,38 @@
 }
 .room-text>:nth-child(1){
     text-align: center;
-    padding-top: 5px;
-    padding-bottom: px;
-    font-size: x-large;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-size: xx-large;
 }
-.room-text>:nth-child(8){
+.room-text>:nth-child(2){
+    padding-bottom: 20px;
+    line-height: 20px;
+}
+.bookprice{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7%;
+    padding-right: 10%;
+}
+.book{
+    border-radius: 10px;
+    padding: 3% 4%;
+    font-size: larger;
+    font-weight: bold;
+    background-color: #d7ac67;
+    color: white;
+}
+.price{
+    font-size:xx-large;
+    padding-left: 5%;
+    display: flex;
+}
+i{
+    margin-right: 3%;
+}
+sup{
+    color: #d7ac67;
     font-size: x-large;
-    margin-bottom: -20px;
+
 }
