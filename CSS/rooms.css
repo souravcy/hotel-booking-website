@@ -10,7 +10,8 @@
     display: flex;
     margin-top: 130px;
     font-size: 300%;
-    color: #2f2f2f;
+    /* color: #2f2f2f; */
+    color: #d7ac67;
 }
 .room{
     /* justify-content: center;
@@ -21,6 +22,7 @@
     background-color: white;
     height: 33rem;
     border-radius: 30px;
+    box-shadow: rgb(215 172 103) 0px 0px 20px 3px;
 }
 .room-text{
     width: 50%;
